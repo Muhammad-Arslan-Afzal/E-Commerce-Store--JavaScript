@@ -1,0 +1,59 @@
+.container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 80%;
+}
+
+.productImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productImage img {
+    width: 100px;
+    height: 100px;
+    border-radius: 0.5em;
+}
+
+.totalPrice {
+
+    /* border: 1px solid green; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#accountAndAddressForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+#orderPlacementForm input {
+    width: 100%;
+    padding: 1em 1em;
+    margin: 10px 0;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.btn-placeOrder {
+    margin-top: 3em;
+    width: 100%;
+    padding: 1em 0;
+    border-radius: 0.5em;
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.btn-placeOrder:hover {
+    background-color: rgb(3, 153, 3);
+}
